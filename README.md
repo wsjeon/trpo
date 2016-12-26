@@ -2,7 +2,4 @@
 
 + Paper in ( http://arxiv.org/abs/1502.05477 ).
 
-+ Repo forked from ( https://github.com/wojzaremba ).
-
-+ Modified by Wonseok Jeon, EE, KAIST (2016/12/27)
-
++ Repo forked from ( https://github.com/wojzaremba ) (2016/12/27)
