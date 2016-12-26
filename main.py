@@ -8,6 +8,7 @@ import logging
 import gym
 from gym import envs, scoreboard
 from gym.spaces import Discrete, Box
+from gym.wrappers import Monitor
 import prettytensor as pt
 from space_conversion import SpaceConversionEnv
 import tempfile
@@ -202,7 +203,8 @@ else:
     task = "RepeatCopy-v0"
 
 env = envs.make(task)
-env.monitor.start(training_dir)
+#env.monitor.start(training_dir)
+Monitor(training_dir)
 
 env = SpaceConversionEnv(env, Box, Discrete)
 
