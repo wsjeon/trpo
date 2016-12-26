@@ -1,4 +1,8 @@
-# TRPO
+# Trust Region Policy Optimization (TRPO)
 
-This repo implements TRPO agent ( http://arxiv.org/abs/1502.05477 ).
++ Paper in ( http://arxiv.org/abs/1502.05477 ).
+
++ Repo forked from ( https://github.com/wojzaremba ).
+
++ Modified by Wonseok Jeon
 
